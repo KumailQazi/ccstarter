@@ -1,0 +1,6 @@
+# The whole project needs exactly one third-party package.
+duckdb>=1.1
+
+# Optional, but strongly recommended once students understand the hand-rolled
+# parser in src/ccstarter/warc.py. FastWARC is C-backed and 4-8x faster.
+# fastwarc>=0.15
