@@ -49,7 +49,7 @@ best five-minute lesson on sampling error a student will ever get.
 ## Setup (5 minutes, no AWS account)
 
 ```bash
-git clone <this repo> ccstarter && cd ccstarter
+git clone https://github.com/KumailQazi/ccstarter.git && cd ccstarter
 python -m venv .venv && source .venv/bin/activate
 pip install duckdb            # the only dependency
 python -m unittest discover -s tests -p 'test_*.py' -v   # works offline (43 tests)

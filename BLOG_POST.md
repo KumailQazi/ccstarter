@@ -131,7 +131,7 @@ figure.
 ## Reproduce it in 10 minutes
 
 ```bash
-git clone <repo> ccstarter && cd ccstarter
+git clone https://github.com/KumailQazi/ccstarter.git && cd ccstarter
 python -m venv .venv && source .venv/bin/activate
 pip install duckdb                                    # the only dependency
 python -m unittest discover -s tests -p 'test_*.py'    # 43 tests, no internet
